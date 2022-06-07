@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.logo{
+    width: 80px;
+    height:80px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+body {
+    margin: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    height: auto;
+    width:100%;
+    background-color: #ffffff;
+}
+.logo{
+    width: 80px;
+    height:80px;
+    margin-top: 10px;
+    margin-left: 40px;
+
+}
+
+nav{
+    margin-left: -80px;
+    position:absolute;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    z-index: 1;
+}
+
+nav option, select{
+    background-color: #ffffff;
+    color: #555
+}
+
+nav:after {
+    clear: both;
+    content: "";
+    display: block;
+
+}
+
+.iconNav{
+    float: right;
+    margin-top: 20px;
+    margin-right: -25px;
+    cursor: pointer;
+    display: none;
+    
+}
+
+
+nav ul{
+    float: right;
+    height: 100px;
+    line-height: 100px;
+    margin: 0;
+}
+
+nav li{
+    list-style: none;
+    float: left;
+    margin: 0 15px;
+    font-size:18px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #555;
+    transition: .5s;
+}
+
+nav li a:hover{
+    color: #57246b;
+
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.perfil-dados{
+    margin-top: 120px;
+    margin-left: 80px;
+    display: flex;
+}
+
+.perfil-dados h1{
+    margin-left: 30px;
+}
+
+.perfil-dados p{
+    margin-top: 26px;
+    margin-left: 20px;
+    color: #555;
+    
+}
+
+.perfil-comunicacao a{
+    margin-left: 200px;
+    background-color: #f7670f;
+    padding: 8px;
+    width: 130px;
+    text-align: center;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.perfil-comunicacao a:hover{
+    padding: 13px;
+}
+
+.perfil-comunicacao p{
+    margin-left: 200px;
+}
+
+
+
+
+
+/*======================= Responsividade ====================*/
+
+@media (max-width:800px){
+
+    .nav-list {
+        position: absolute;
+        right: 1;
+        width: 50vh;
+        height: 100vh;
+        background:#24122b ;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        display: none;
+        font-size: 15px;
+        box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.164);
+        
+    }
+    .iconNav {
+        display: block;
+    } 
+    .open {
+        display: flex ;
+        justify-content: space-around;
+    }
+
+    .HomeMain{
+        margin-top: 50px;
+        padding: 10px;
+        
+    }
+
+    .HomeMain h3{
+        font-size: 25px;
+        padding: 10px;
+    }
+
+
+    .WhatIsOurPlatform img{
+        width: 400px;
+        margin-left: 60px;
+        padding: 10px;
+    }
+
+    .icons{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        display: grid;
+        place-items: center;
+        text-align: center;
+    }
+
+    .icons p{
+        padding: 10px;
+}
+
+}
