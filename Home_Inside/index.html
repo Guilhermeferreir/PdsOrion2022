@@ -1,26 +1,166 @@
 <!DOCTYPE html>
 <html lang="Pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Orion - Bem Vindo</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <ul>
-        <li><a class="active" href="#home">Meu Perfil</a></li>
-        <li><a href="#">Chat</a></li>
 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <title>Orion - Bem Vindo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <a href="#"><img class="logo" src="img/Orion (2)-fococlipping-standard.png" alt=""></a>
+    <nav>
+      <img onclick="IconMenu()" class="iconNav" src="https://img.icons8.com/doodle/60/000000/menu.png" alt="">
+
+      <ul class="nav-list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Campenatos</a></li>
+        <li><a class="LinkCadastro" href="#">Meu Perfil</a></li>
+        <select name="countries">
+          <option value="PT">pt&emsp;Português</option>
+          <option value="EN">en&emsp;Inglês</option>
+        </select>
       </ul>
-      
-      <div class="main" style="margin-left:25%;padding:1px 16px;height:1000px;">
-        <h2>Lorem ipsum dolor sit amet</h2>
-        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum odit</h3>
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum odit, numquam
-             doloremque nam modi tenetur accusantium placeat debitis ut, dicta blanditiis harum similique hic perferendis tempore obcaecati! Saepe, exercitationem similique.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta modi nostrum ex doloribus aperiam eius.
-         Vel incidunt ipsam quam, quidem aut est consequatur sapiente, commodi possimus magnam delectus earum consectetur?</p>
+    </nav>
+  </header>
+
+  <div class="cards">
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="img/ChatsImage.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Participe de Chats</h5>
+        <p class="card-text">Conecte-se com diversos jogadores, para participar de campeonatos.</p>
       </div>
+      <div class="card-body">
+        <a href="#" class="card-link">Veja Mais</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="img/TorneiosImage.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Dispute Torneios</h5>
+        <p class="card-text">Jogue com o seu time montado no ultimate team ou myclub, e times clássicos como Real Madrid ou Liverpool.</p>
+      </div>
+      <div class="card-body">
+        <a href="#" class="card-link">Veja Mais</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="img/RankingImage.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Suba no Ranking</h5>
+        <p class="card-text">Melhore sua habilidade e aumente sua posição no ranking, alcançando rescompensas ao final da temporada</p>
+      </div>
+      <div class="card-body">
+        <a href="#" class="card-link">Veja Mais</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+  <!-- Section: Social media -->
+  <section
+    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+  >
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Orion
+          </h6>
+          <p>
+            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx <br>  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx <br> xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Products
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Angular</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">React</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Vue</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Laravel</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Sobre Nós</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset"></a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Orders</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Contato
+          </h6>
+          <p><i class="fas fa-home me-3"></i> São Paulo, Brasil</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            ProjetoOrion@gmail.com
+          </p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2022 Copyright:
+    <a class="text-reset fw-bold" href="#">Orion</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
 </body>
+
 </html>

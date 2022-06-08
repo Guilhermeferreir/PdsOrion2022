@@ -2,44 +2,41 @@
 
 *{
     font-family: 'Poppins', sans-serif;
+    
+}
+
+header{
+    position: relative;
+    top: 0;
+    height: auto;
+    width:100%;
 }
 .logo{
     width: 80px;
     height:80px;
     margin-top: 10px;
     margin-left: 40px;
+
 }
 
-body {
-    margin: 0;
-  }
-  
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 25%;
-    background-color: #18081f;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
-  }
-  
-  li a {
+nav{
+    margin-left: -80px;
+    position:absolute;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    z-index: 1;
+}
+
+nav option, select{
+    color: #000;
+}
+
+nav:after {
+    clear: both;
+    content: "";
     display: block;
-    color: #ffff;
-    padding: 8px 16px;
-    text-decoration: none;
-  }
-  
-  li a.active {
-    background-color: #d45100;
-    color: white;
-  }
-  
-  li a:hover:not(.active) {
-    background-color: #555;
-    color: white;
+
 }
 
 .iconNav{
@@ -52,9 +49,65 @@ body {
 }
 
 
-.main{
+nav ul{
+    float: right;
+    height: 100px;
+    line-height: 100px;
+    margin: 0;
+}
+
+nav li{
+    list-style: none;
+    float: left;
+    margin: 0 15px;
+    font-size:18px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #e26511;
+    transition: .5s;
+}
+
+nav li a:hover{
+    color: #743c16;
+
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.cards{
+    display: flex;
+    margin: auto;
+    margin-left: 220px;
+    margin-bottom: 60px;
+}
+
+.card{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card-img-top{
+    width: 290px;
+}
+
+.card-title{
+    color: #24122b;
+    font-weight: 500;
+}
+
+.card-link{
+    font-size: 16px;
     background-color: #24122b;
-    color: white;
+    color: #ffff;
+    padding: 7px;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
 
 /*======================= Responsividade ====================*/
