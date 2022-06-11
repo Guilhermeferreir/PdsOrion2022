@@ -99,22 +99,32 @@ a{
     margin-top: 99px;
 }
 
+.Editar_Informaçoes button{
+    color: #ffffff;
+    background-color: #57246b;
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    transition: 0.5s;
+}
+
+.Editar_Informaçoes button:hover{
+    padding: 13px;
+}
+
 .Editar_Informaçoes h1{
     text-align: center;
     color: #ff914d;
     font-size: 28px;
 }
 
-.Editar_Informaçoes img{
-    width: 200px;
-    height: 200px;
+.bi-person-circle{
+    width: 150px;
+    height: 150px;
     margin-left: 560px;
     border-radius: 50%;
 
 }
-
-
-
 
 .Informacoes_conta{
     display: grid;
@@ -123,11 +133,13 @@ a{
 
 .Informacoes_conta h2{
     color: #555;
+    font-size: 25px;
+    padding: 10px;
 }
 
 .Informacoes_conta input{
-    width: 350px;
-    height: 30px;
+    width: 380px;
+    height: 45px;
     padding: 5px;
     font-size: 14px;
     border-radius: 15px;
@@ -135,11 +147,23 @@ a{
 }
 
 
+.Informacoes_conta button{
+    color: #ffffff;
+    background-color: #57246b;
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    transition: 0.5s;
+}
 
 
+.Informacoes_conta button:hover{
+    padding: 13px;
+}
 
-
-
+footer{
+    margin-top: 70px;
+}
 
 
 
@@ -173,3 +197,18 @@ a{
 }
 
 
+/*======================= Animações ====================*/
+
+*{
+    animation-name: fade;  
+    animation-duration: 1s;
+    }
+    @keyframes fade{
+    from{
+      opacity: 0;
+      transform: scale(1);
+    }
+    to{
+      opacity: 1;
+    }
+    }

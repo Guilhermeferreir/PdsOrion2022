@@ -133,8 +133,58 @@ a{
 }
 
 
+h2{
+    text-align: center;
+    font-size: 28px;
+    margin-top: 60px;
+    color: #f7670f;
+    font-weight: 500;
+}
+
+.cards-atividades{
+    display: flex;
+    text-align: center;
+    margin-left: 190px;
+}
 
 
+.cards-atividades .card-title{
+    font-weight: 600;
+    color: #57246b;
+}
+
+.cards-atividades .card-text{
+    font-size: 25px;
+}
+
+.Participaçao-ligas{
+    margin-top: 100px;
+}
+
+.Participaçao-ligas h2{
+    font-size: 27px;
+    padding: 30px;
+}
+
+.Participaçao-ligas .imagens{
+    display: flex;
+    margin-left: 420px;
+    
+}
+
+
+.vertodos{
+   display: grid;
+   place-items: center;
+   font-size: 16px;
+   color: #57246b;
+   padding: 10px;
+}
+
+
+footer{
+    margin-top: 100px;
+}
 
 /*======================= Responsividade ====================*/
 
@@ -193,3 +243,20 @@ a{
 }
 
 }
+
+
+/*======================= Animações ====================*/
+
+*{
+    animation-name: fade;  
+    animation-duration: 1s;
+    }
+    @keyframes fade{
+    from{
+      opacity: 0;
+      transform: scale(1);
+    }
+    to{
+      opacity: 1;
+    }
+    }
