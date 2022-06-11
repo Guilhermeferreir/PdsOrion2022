@@ -83,13 +83,14 @@ a{
 .cards{
     display: flex;
     margin: auto;
-    margin-left: 220px;
+    margin-left: 115px;
     margin-bottom: 60px;
 }
 
 .card{
     text-align: center;
     margin-top: 20px;
+    margin-left: 50px;
 }
 
 .card-img-top{
@@ -98,7 +99,7 @@ a{
 
 .card-title{
     color: #24122b;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .card-link{
