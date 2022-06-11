@@ -79,7 +79,7 @@ nav li a{
 }
 
 nav li a:hover{
-    color: #743c16;
+    color: #c969f0;
 
 }
 
@@ -250,10 +250,21 @@ a{
         padding: 10px;
     }
 
-    
-
-
-    
-
-
 }
+
+
+/*======================= Animações ====================*/
+
+*{
+    animation-name: fade;  
+    animation-duration: 1s;
+    }
+    @keyframes fade{
+    from{
+      opacity: 0;
+      transform: scale(1);
+    }
+    to{
+      opacity: 1;
+    }
+    }
